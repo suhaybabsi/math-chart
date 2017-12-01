@@ -1,0 +1,8 @@
+{
+  "name": "Math Chart",
+  "description": "Simple chart to visualize math functions",
+  "repository": "https://github.com/suhaybabsi/math-chart",
+  "logo": "",
+  "keywords": ["node", "express", "easeljs", "createjs", "heroku"],
+  "image": "heroku/nodejs"
+}

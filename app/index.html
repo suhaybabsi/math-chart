@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Math Chart</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styles.css" type="text/css" >
+        <script src="libs/math.min.js" ></script>
+        <script src="libs/jquery-1.11.3.min.js" ></script>
+        <script src="libs/easeljs-0.8.1.min.js" ></script>
+        <script src="libs/tweenjs-0.6.1.min.js" ></script>
+        <script src="js/main.js" ></script>
+    </head>
+    <body onload="init();">
+        <canvas id="root" ></canvas>
+        <div id="equation-box" >
+            <input type="text" value="cos(x) * x" />
+        </div>
+        <div id="credits">
+            Created by&nbsp;<a href="mailto:suhayb.absi@gmail.com">Suhayb Al-Absi</a>
+        </div>
+        <div id="help-box">
+            <b>SHIFT + Mouse</b> drag to navigate through the chart.<br/>
+            Change the equation below and hit <b>ENTER</b> to update chart.
+        </div>
+    </body>
+</html>

@@ -1,0 +1,32 @@
+{
+  "name": "magic-starter",
+  "version": "0.1.0",
+  "description": "Simple chart to visualize math functions",
+  "engines": {
+    "node": "6.11.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "flux": "^3.1.3",
+    "request": "^2.83.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/suhaybabsi/math-chart"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express",
+    "graphics",
+    "easeljs",
+    "createjs",
+    "math"
+  ],
+  "license": "MIT"
+}
